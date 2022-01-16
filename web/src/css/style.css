@@ -1,0 +1,58 @@
+button{
+	width:120px;
+	height: 40px;
+	color:#fff;
+	background: #f0b028;
+	font-size: 16px;
+	border:none;
+	border-radius: 20px;
+	box-shadow: 0 4px 16px rgba(0,79,255,0.3);
+	transition:0.3s;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	font-family: "jua";
+    src: url("../font/Jua-Regular.ttf");
+}
+button:focus {
+	outline:0;
+}
+button:hover{
+	background: rgba(255, 166, 0, 0.9);
+	cursor: pointer;
+	box-shadow: 0 2px 4px rgba(0,79,255,0.6);
+}
+boxtext{
+	width:500px;
+	height: 50px;
+	color:rgb(0, 0, 0);
+	background: #ffffff;
+	font-size: 30px;
+	border:none;
+	border-radius: 20px;
+	box-shadow: 0 4px 16px rgba(0,79,255,0.3);
+	transition:0.3s;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	font-family: "jua";
+    src: url("../font/Jua-Regular.ttf");
+}
+helptext{
+	width:200px;
+	height: 50px;
+	color:rgb(0, 0, 0);
+	background: #ffa600;
+	font-size: 30px;
+	border:none;
+	border-radius: 20px;
+	box-shadow: 0 4px 16px rgba(0,79,255,0.3);
+	transition:0.3s;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	font-family: "jua";
+	text-align: center;
+    src: url("../font/Jua-Regular.ttf");
+}
+center{
+    top:50%;
+	left: 50%;
+}
